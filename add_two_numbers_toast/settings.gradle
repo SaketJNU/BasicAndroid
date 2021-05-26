@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "add_two_numbers_toast"
