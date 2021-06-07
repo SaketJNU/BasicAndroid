@@ -1,0 +1,109 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="3"
+    tools:context="com.android_examples.com.gridlayout.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="A"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="B"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:text="C"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:text="D"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    //2nd row starts from here.
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="E"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="F"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="G"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:text="H"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    //3rd row starts from here.
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:text="I"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:text="J"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="K"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:text="L"
+        android:padding="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</GridLayout>
